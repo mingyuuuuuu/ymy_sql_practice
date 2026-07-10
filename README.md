@@ -206,4 +206,4 @@ sql_project/
 
 **Mingyu Yang**
 
-GitHub: https://github.com/mingyuuuuuuu
+GitHub: https://github.com/mingyuuuuuu
