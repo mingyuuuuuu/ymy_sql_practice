@@ -1,11 +1,23 @@
-
 # SQL Data Analyst Job Market Analysis
+
+## 📑 Table of Contents
+
+- [📌 Introduction](#-introduction)
+- [🛠 Tools Used](#-tools-used)
+- [📊 SQL Analysis](#-sql-analysis)
+  - [Query 1 – Top Paying Data Analyst Jobs](#query-1--top-paying-data-analyst-jobs)
+  - [Query 2 – Top Companies Hiring Data Analysts](#query-2--top-companies-hiring-data-analysts)
+  - [Query 3 – Most In-Demand Skills](#query-3--most-in-demand-skills)
+  - [Query 4 – Top Job Platforms](#query-4--top-job-platforms)
+  - [Query 5 – Optimal Skills: Demand vs Salary](#query-5--optimal-skills-demand-vs-salary)
+- [📈 Conclusions](#-conclusions)
+- [📂 Project Structure](#-project-structure)
+
+---
 
 ## 📌 Introduction
 
-This project analyzes the **Data Analyst job market** using **SQL** and **Power BI**. The analysis is based on real-world job posting data and focuses on answering practical career questions that are valuable for aspiring data analysts.
-
-The project explores:
+This project explores the Data Analyst job market using SQL and Power BI. The analysis is based on real-world job posting data and focuses on answering practical career questions, such as:
 
 - Which Data Analyst jobs offer the highest salaries?
 - Which companies hire the most Data Analysts?
@@ -13,11 +25,11 @@ The project explores:
 - Which job platforms publish the most Data Analyst positions?
 - Which skills provide the best balance between market demand and salary?
 
-This project demonstrates practical SQL querying, data analysis, and dashboard visualization skills commonly used in real-world data analyst roles.
+The project combines **SQL** for data analysis and **Power BI** for data visualization to transform raw job posting data into meaningful insights.
 
 ---
 
-# 🛠 Tools Used
+## 🛠 Tools Used
 
 - **PostgreSQL** – Data querying and analysis
 - **SQL** – Data extraction and aggregation
@@ -27,17 +39,19 @@ This project demonstrates practical SQL querying, data analysis, and dashboard v
 
 ---
 
-# 📊 Analysis
+# 📊 SQL Analysis
+
+---
 
 ## Query 1 – Top Paying Data Analyst Jobs
 
 ### Business Question
 
-Which remote Data Analyst jobs offer the highest annual salaries?
+Which Data Analyst jobs offer the highest annual salaries?
 
 ### SQL File
 
-`project_sql/1_top_paying_jobs.sql`
+[1_top_paying_jobs.sql](project_sql/1_top_paying_jobs.sql)
 
 ### Dashboard
 
@@ -46,8 +60,8 @@ Which remote Data Analyst jobs offer the highest annual salaries?
 ### Key Insights
 
 - The highest-paying Data Analyst position offers an annual salary above **$650,000**.
-- Most top-paying positions are senior or director-level roles.
-- Remote opportunities dominate the highest salary range.
+- Most of the highest-paying positions are senior or director-level roles.
+
 
 ---
 
@@ -59,7 +73,7 @@ Which companies publish the largest number of Data Analyst job postings?
 
 ### SQL File
 
-`project_sql/2_top_hiring_companies.sql`
+[2_top_hiring_companies.sql](project_sql/2_top_hiring_companies.sql)
 
 ### Dashboard
 
@@ -68,12 +82,11 @@ Which companies publish the largest number of Data Analyst job postings?
 ### Key Insights
 
 - A small number of companies account for a significant share of Data Analyst openings.
-- Large hiring companies may provide more opportunities for entry-level candidates.
-- Hiring demand varies considerably across employers.
+- Companies with high hiring demand may provide more opportunities for job seekers.
 
 ---
 
-## Query 3 – Top 5 Most In-Demand Skills
+## Query 3 – Most In-Demand Skills
 
 ### Business Question
 
@@ -81,29 +94,29 @@ Which skills appear most frequently in Data Analyst job postings?
 
 ### SQL File
 
-`project_sql/3_top_demanded_skills.sql`
+[3_top_demanded_skills.sql](project_sql/3_top_demanded_skills.sql)
 
 ### Dashboard
 
-![Top Demanded Skills](images/3_top_demanded_skills.jpg)
+![Top Skills](images/3_top_demanded_skills.jpg)
 
 ### Key Insights
 
-- **SQL** is the most frequently requested skill.
-- **Excel** and **Python** remain essential for Data Analyst roles.
-- **Tableau** and **Power BI** are widely required visualization tools.
+- SQL is the most frequently requested skill.
+- Excel and Python remain essential technical skills.
+- Tableau and Power BI are also highly valued visualization tools.
 
 ---
 
-## Query 4 – Top Job Platforms for Data Analyst Postings
+## Query 4 – Top Job Platforms
 
 ### Business Question
 
-Which job platforms publish the most Data Analyst positions?
+Which job platforms publish the most Data Analyst job postings?
 
 ### SQL File
 
-`project_sql/4_top_job_platforms.sql`
+[4_top_job_platforms.sql](project_sql/4_top_job_platforms.sql)
 
 ### Dashboard
 
@@ -111,9 +124,9 @@ Which job platforms publish the most Data Analyst positions?
 
 ### Key Insights
 
-- **LinkedIn** is the leading platform for Data Analyst job postings.
-- **Indeed** and **ZipRecruiter** also contribute a significant number of opportunities.
-- Different platforms serve different segments of the job market.
+- LinkedIn publishes the largest number of Data Analyst job postings.
+- BeBee and Trabajo.org also contain a considerable number of opportunities.
+- Different platforms attract different segments of the job market.
 
 ---
 
@@ -121,11 +134,11 @@ Which job platforms publish the most Data Analyst positions?
 
 ### Business Question
 
-Which skills provide the best balance between market demand and average salary?
+Which skills provide the best balance between market demand and salary for remote Data Analyst jobs with salary information?
 
 ### SQL File
 
-`project_sql/5_optimal_skills.sql`
+[5_optimal_skills.sql](project_sql/5_optimal_skills.sql)
 
 ### Dashboard
 
@@ -133,23 +146,22 @@ Which skills provide the best balance between market demand and average salary?
 
 ### Key Insights
 
-- **SQL** offers the strongest combination of high demand and competitive salaries.
-- **Python** and **Tableau** also provide excellent career opportunities.
-- **SAS** commands the highest average salary but appears in relatively fewer job postings, indicating a niche specialization.
+- SQL offers the strongest combination of high demand and competitive salaries.
+- Python and Tableau also provide excellent career opportunities.
+- SAS commands the highest average salary but appears in relatively fewer job postings, indicating a niche specialization.
 
 ---
 
 # 📈 Conclusions
 
-This project demonstrates how **SQL** and **Power BI** can be combined to analyze real-world job market data.
+This project demonstrates how SQL and Power BI can be combined to analyze real-world Data Analyst job market data.
 
 ### Main Findings
 
 - SQL is the most valuable core skill for aspiring Data Analysts.
 - Python and Tableau significantly improve career competitiveness.
-- High salaries are concentrated in senior remote positions.
-- LinkedIn is the dominant platform for Data Analyst job postings.
-- Demand and salary should both be considered when choosing which technical skills to learn.
+- LinkedIn is one of the leading platforms for Data Analyst job postings.
+- Salary and market demand should both be considered when choosing which technical skills to learn.
 
 ---
 
