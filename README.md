@@ -63,7 +63,6 @@ Which Data Analyst jobs offer the highest annual salaries?
 ### Key Insights
 
 - The highest-paying Data Analyst position offers an annual salary above **$650,000**.
-- Several positions offer annual salaries exceeding **$200,000**.
 - The highest-paying opportunities are concentrated among a relatively small number of companies.
 
 ---
